@@ -1,6 +1,7 @@
 A comprehensive Flask-based web application for automated medical diagnosis through image analysis. This platform leverages machine learning models to predict various medical conditions, all while offering a secure and modern user experience.
 
-The ML Models can be accessed here --> https://huggingface.co/TheManeuver/InVisionDX
+Access the ML models here--> https://huggingface.co/TheManeuver/InVisionDX
+
 ## Index
 
 - [Project Overview](#project-overview)
@@ -112,6 +113,7 @@ mywebsite/
 ```
 ## Installation
 - Follow these steps to set up the project locally:
+  
 - 1. Clone the Repository:
   ```bash
   git clone https://github.com/yourusername/yourrepository.git
@@ -128,19 +130,19 @@ mywebsite/
   ```
 
 ## Usage
-- 1. Start the Application:
+- Start the Application:
   ```bash
   python3 app.py
   ```
-- 2. Access the Application: Open your browser and navigate to http://127.0.0.1:5500.
-- 3. Register/Login:
-- Create a new account or log in with existing credentials.
-- Use your dashboard to upload images and view predictions.
+- Access the Application: Open your browser and navigate to http://127.0.0.1:5500.
+- Register/Login:
+  Create a new account or log in with existing credentials.
+  Use your dashboard to upload images and view predictions.
 
-- 4. Making Predictions:
-- Upload a medical image using the interactive form.
-- View the prediction results along with confidence scores.
-- Check your prediction history in your user profile.
+- Making Predictions:
+  Upload a medical image using the interactive form.
+  View the prediction results along with confidence scores.
+  Check your prediction history in your user profile.
 
 
 
