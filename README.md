@@ -52,9 +52,8 @@ This web application is designed to analyze medical images and predict condition
   - `COVID_Detect.keras`
   - `pneumonia_predict.keras`
   - `tb_model_final.keras`
-  - `best_resnet_model_lc.keras`
+  - `best_model_lung_cancer.keras`
   - `alzheimer_detect.keras`
-  - `brain_hemmmm.keras`
 - **On-Demand Loading:** Models are loaded as needed, optimizing memory usage.
 - **Prediction Outputs:** Provides confidence scores for each prediction, with results stored in the database.
 
@@ -130,7 +129,7 @@ mywebsite/
   ```bash
   pip install -r requirements.txt
   ```
-
+  4. Make sure that the file paths of models in app.py are correct.
 ## Usage
 - Start the Application:
   ```bash
