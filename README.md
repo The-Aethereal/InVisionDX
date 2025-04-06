@@ -1,5 +1,6 @@
 A comprehensive Flask-based web application for automated medical diagnosis through image analysis. This platform leverages machine learning models to predict various medical conditions, all while offering a secure and modern user experience.
 
+The ML Models can be accessed here --> https://huggingface.co/TheManeuver/InVisionDX
 ## Index
 
 - [Project Overview](#project-overview)
