@@ -114,17 +114,17 @@ mywebsite/
 ## Installation
 - Follow these steps to set up the project locally:
   
-- 1. Clone the Repository:
+  1. Clone the Repository:
   ```bash
   git clone https://github.com/yourusername/yourrepository.git
   cd yourrepository
   ```
-- 2. Create a virtual environment:
+  2. Create a virtual environment:
   ```bash
   python3 -m venv venv
   source venv/bin/activate
   ```
-- 3. Install Dependencies:
+  3. Install Dependencies:
   ```bash
   pip install -r requirements.txt
   ```
