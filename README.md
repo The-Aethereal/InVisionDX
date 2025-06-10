@@ -135,7 +135,7 @@ mywebsite/
   ```bash
   python3 app.py
   ```
-- Access the Application: Open your browser and navigate to https://127.0.0.1:5500 or localhost:5500.
+- Access the Application: Open your browser and navigate to https://localhost:5500.
 - Register/Login:
   Create a new account or log in with existing credentials.
   Use your dashboard to upload images and view predictions.
