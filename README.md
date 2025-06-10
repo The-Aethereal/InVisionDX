@@ -129,7 +129,8 @@ mywebsite/
   ```bash
   pip install -r requirements.txt
   ```
-  4. Make sure that the file paths of models in app.py are correct.
+  4. Download the models from huggingface into the root directory.
+  5. Make sure that the file paths of models in app.py are correct.
 ## Usage
 - Start the Application:
   ```bash
