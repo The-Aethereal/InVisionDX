@@ -117,8 +117,8 @@ mywebsite/
   
   1. Clone the Repository:
   ```bash
-  git clone https://github.com/yourusername/yourrepository.git
-  cd yourrepository
+  $ git clone https://github.com/The-Aethereal/InVisionDX
+  $ cd InVisionDX/
   ```
   2. Create a virtual environment:
   ```bash
