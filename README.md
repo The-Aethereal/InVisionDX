@@ -106,7 +106,6 @@ This web application is designed to analyze medical images and predict condition
 ```plaintext
 mywebsite/
 ├── app.py              # Main application file
-├── requirements.txt    # Project dependencies
 ├── templates/          # HTML templates for the web pages
 ├── static/             # Static assets (CSS, JavaScript, images)
 ├── instance/           # Instance-specific files and configurations
@@ -127,7 +126,11 @@ mywebsite/
   ```
   3. Install Dependencies:
   ```bash
-  pip install -r requirements.txt
+  pip install --upgrade pip setuptools wheel
+  pip install tensorflow==2.16.2
+  pip install opencv-python --only-binary=all
+  pip install flask==2.3.3 flask-sqlalchemy==3.0.5 flask-login==0.6.3
+  pip install werkzeug==2.3.7 pillow email-validator python-dotenv
   ```
   4. Download the models from huggingface into the root directory.
   5. Make sure that the file paths of models in app.py are correct.
@@ -136,15 +139,11 @@ mywebsite/
   ```bash
   python3 app.py
   ```
-- Access the Application: Open your browser and navigate to https://localhost:5500.
+- Access the Application: Open your browser and navigate to  http://127.0.0.1:5500 or localhost:5500.
 - Register/Login:
   Create a new account or log in with existing credentials.
   Use your dashboard to upload images and view predictions.
 
-- Making Predictions:
-  Upload a medical image using the interactive form.
-  View the prediction results along with confidence scores.
-  Check your prediction history in your user profile.
 
 
 ![login](https://github.com/user-attachments/assets/610d15a1-5d39-4b86-a880-0936db3330cf)
